@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Gilroy';
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+.main{
+
+}
+
+.page1{
+    height: 100 vh;
+    width:100 vh;
+    background-color:#EFEAE3;
+    position:relative;
+}
+
+
+.nav{
+    padding:2vw 3vw;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+/* Arrange work studio and side at the center */
+
+.navside{
+    display:flex;
+    align-items:center;
+    gap:1vw;
+}
+
+.navside h4 {
+    padding: 10px 20px;
+   
+    border: 1px solid #0000003c;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #000000bb;
+    transition: all ease 0.4s;
+    position: relative;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+/* #nav-part2 h4::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -100%;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+} */
+/* 
+#nav-part2 h4:hover::after {
+    bottom: 0;
+    border-radius: 0;
+} */
+
+
+
+
+
+
